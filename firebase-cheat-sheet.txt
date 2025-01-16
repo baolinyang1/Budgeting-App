@@ -1,0 +1,18 @@
+firebase documentation that explains the way things are stored
+https://firebase.google.com/docs/firestore/data-model?_gl=1*g5b840*_up*MQ..*_ga*MTAzMTA2NTc4NS4xNzI4OTQ5NDEz*_ga_CW55HF8NVT*MTcyODk0OTQxMy4xLjAuMTcyODk0OTQxMy4wLjAuMA..
+
+db - is a variable that holds a reference to the entire database
+
+basic layout of database
+-> users collection contains documents for every user who has signed up
+-> each user will have fields for their uid (user identification) and their email
+-> each user has a collection for expenses
+-> each user has a collection for savings challenges
+
+
+main functions used
+-> collection - gets the collection at the specified path
+-> doc - gets a reference to the document at the specified path
+-> getDoc - gets the data of the specififed document
+-> setDoc - writes to the document specified (overwrites what is already there unless you specify to merge)
+-> updateDoc - updates fields in the document specified

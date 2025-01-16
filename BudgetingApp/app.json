@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "BudgetingApp",
+    "slug": "BudgetingApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/SpendSmart.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#9fb8ad"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "newArchEnabled": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/SpendSmart.png",
+        "backgroundColor": "#9fb8ad"
+      }
+    },
+    "web": {
+      "favicon": "./assets/SpendSmart.png"
+    }
+  }
+}
